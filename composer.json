@@ -1,0 +1,16 @@
+{
+    "name": "nafisphp/oc",
+    "description": "Nafis PHP Output Control Package",
+    "autoload": {
+        "psr-4": {
+            "Nafisphp\\Oc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "encoderuz",
+            "email": "abduqodirxojiyev@gmail.com"
+        }
+    ],
+    "require": {}
+}
