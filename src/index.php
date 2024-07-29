@@ -1,1 +1,1 @@
-<?php/** Abdukodir Khojiyev* Backend Developer* Project: oc* Date:  7/30/2024*/use Nafisphp\Obc;Obc::start();print_r(    'executed');$contents = Obc::contents();Obc::end_flush();echo $contents;
+<?php/** Abdukodir Khojiyev* Backend Developer* Project: oc* Date:  7/30/2024*/use Nafisphp\Obc\Obc;Obc::start();print_r(    'executed');$contents = Obc::contents();Obc::end_flush();echo $contents;

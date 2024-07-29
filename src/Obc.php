@@ -8,7 +8,7 @@
 
 namespace Nafisphp\Obc;
 
-use Nafisphp\Obc\Interfaces\ObcInterface;
+use Nafisphp\Obc\Obc\Interfaces\ObcInterface;
 
 class Obc implements ObcInterface
 {
