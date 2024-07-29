@@ -12,5 +12,7 @@
       "email": "abduqodirxojiyev@gmail.com"
     }
   ],
-  "require": {}
+  "require": {
+    "ext-zlib": "*"
+  }
 }
