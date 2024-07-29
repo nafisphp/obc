@@ -1,6 +1,7 @@
 {
   "name": "nafisphp/oc",
   "description": "Nafis PHP Output Buffer Control Package",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Nafisphp\\Oc\\": "src/"
