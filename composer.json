@@ -1,19 +1,45 @@
 {
+  "version": "1.0.0",
   "name": "nafisphp/oc",
   "description": "Nafis PHP Output Buffer Control Package",
+  "homepage": "https://github.com/nafisphp/obc",
   "license": "MIT",
+  "type": "library",
   "autoload": {
     "psr-4": {
       "Nafisphp\\Oc\\": "src/"
-    }
+    },
+    "files": [
+      "src/Helpers/helpers.php"
+    ]
   },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/nafisphp/obc"
+    }
+  ],
   "authors": [
     {
       "name": "encoderuz",
-      "email": "abduqodirxojiyev@gmail.com"
+      "email": "abduqodirxojiyev@gmail.com",
+      "homepage": "https://github.com/encoderuz",
+      "role": "PHP Developer"
     }
   ],
+  "support": {
+    "issues": "https://github.com/nafisphp/obc/issues",
+    "source": "https://github.com/nafisphp/obc"
+  },
   "require": {
+    "php": ">=8.2",
     "ext-zlib": "*"
   }
 }
