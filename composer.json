@@ -7,7 +7,7 @@
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Nafisphp\\Oc\\": "src/"
+      "Nafisphp\\Obc\\": "src/"
     },
     "files": [
       "src/Helpers/helpers.php"
@@ -16,7 +16,10 @@
   "config": {
     "preferred-install": "dist",
     "sort-packages": true,
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -41,5 +44,8 @@
   "require": {
     "php": ">=8.2",
     "ext-zlib": "*"
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.34"
   }
 }

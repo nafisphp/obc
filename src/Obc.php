@@ -6,9 +6,9 @@
 * Date:  7/28/2024
 */
 
-namespace Nafisphp\Oc;
+namespace Nafisphp\Obc;
 
-use Nafisphp\Oc\Interfaces\ObcInterface;
+use Nafisphp\Obc\Interfaces\ObcInterface;
 
 class Obc implements ObcInterface
 {

@@ -1,1 +1,1 @@
-<?phpit('should execute some actions', function () {});
+<?phpuse Nafisphp\Oc\Obc;it('should execute some actions', function () {    Obc::start();    print_r('executed');    Obc::end_flush();});
